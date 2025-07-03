@@ -52,7 +52,7 @@ function loadModel(modelPath) {
     );
 }
 
-loadModel('model.gltf');
+loadModel('model1.gltf');
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
